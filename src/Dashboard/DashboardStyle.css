@@ -1,0 +1,40 @@
+.daytoday, .interactiveGames, .reminder, .chilltime, .worktime{
+  background-color: lightblue;
+  border-radius:10px;
+  height:200px;
+  width:200px;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.daytoday:hover, .interactiveGames:hover, .reminder:hover, .chilltime:hover, .worktime:hover{
+background-color: blueviolet;
+}
+.daytoday{
+
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+}
+.interactiveGames{
+    position: relative;
+    left: 350px;
+    bottom: 230px;
+}
+.reminder{
+    position: relative;
+    left: 600px;
+    bottom:450px;
+}
+.chilltime{
+    position: relative;
+    left:150px;
+    bottom: 400px;
+}
+.worktime{
+    position: relative;
+    left: 410px;
+    bottom: 620px;
+}
